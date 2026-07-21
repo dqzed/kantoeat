@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Kanto Eat — Discover the best Filipino karinderyas, eateries, and lutong bahay near you. Browse menus, check prices, and support local food businesses.">
   <title>Kanto Eat | Discover Filipino Karinderyas Near You</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="finalprojectkanto.eat/css/style.css">
 </head>
 <body class="page-body">
 

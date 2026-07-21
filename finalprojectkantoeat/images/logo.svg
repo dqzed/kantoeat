@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="#174d2e"/>
+  <rect x="18" y="18" width="64" height="64" rx="14" fill="#f0c96d"/>
+  <rect x="30" y="30" width="40" height="40" rx="10" fill="#1b5733"/>
+  <path d="M115 58 C130 30, 160 20, 184 28 C205 34, 218 53, 221 74 C194 70, 158 78, 115 58 Z" fill="#2f7f43"/>
+  <path d="M123 61 C140 47, 154 38, 176 36" stroke="#f0c96d" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <text x="238" y="48" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f5f1e2">KANTO</text>
+  <text x="238" y="78" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#d8b354">EAT</text>
+</svg>

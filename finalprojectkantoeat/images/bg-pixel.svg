@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07140f"/>
+      <stop offset="55%" stop-color="#0d2317"/>
+      <stop offset="100%" stop-color="#183d26"/>
+    </linearGradient>
+    <pattern id="pixels" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="transparent"/>
+      <rect x="0" y="0" width="10" height="10" fill="#0f2a1c" opacity=".55"/>
+      <rect x="20" y="10" width="10" height="10" fill="#103622" opacity=".42"/>
+      <rect x="10" y="25" width="8" height="8" fill="#d0a84a" opacity=".14"/>
+      <rect x="30" y="30" width="6" height="6" fill="#f1d98b" opacity=".08"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g1)"/>
+  <rect width="1600" height="1000" fill="url(#pixels)" opacity=".95"/>
+  <g opacity=".95">
+    <rect x="90" y="180" width="70" height="520" rx="18" fill="#1d5a33"/>
+    <rect x="112" y="135" width="22" height="610" rx="10" fill="#2f7d44"/>
+    <rect x="108" y="250" width="30" height="18" rx="4" fill="#b3d58b" opacity=".25"/>
+    <rect x="108" y="390" width="30" height="18" rx="4" fill="#b3d58b" opacity=".25"/>
+    <rect x="108" y="540" width="30" height="18" rx="4" fill="#b3d58b" opacity=".25"/>
+    <path d="M150 250 C240 210, 275 150, 355 150 C295 210, 255 250, 180 280 Z" fill="#88b95f" opacity=".58"/>
+    <path d="M150 380 C225 340, 300 315, 420 320 C330 360, 255 410, 180 430 Z" fill="#9fd672" opacity=".45"/>
+  </g>
+  <g opacity=".65">
+    <rect x="1240" y="90" width="82" height="620" rx="20" fill="#214e2f"/>
+    <rect x="1266" y="35" width="26" height="690" rx="12" fill="#2c7a43"/>
+    <rect x="1261" y="150" width="36" height="20" rx="4" fill="#e6cc72" opacity=".18"/>
+    <rect x="1261" y="320" width="36" height="20" rx="4" fill="#e6cc72" opacity=".18"/>
+    <rect x="1261" y="490" width="36" height="20" rx="4" fill="#e6cc72" opacity=".18"/>
+    <path d="M1310 230 C1410 180, 1490 140, 1570 150 C1500 220, 1440 260, 1365 300 Z" fill="#a9d66a" opacity=".46"/>
+    <path d="M1310 450 C1400 390, 1500 360, 1600 365 C1520 420, 1460 470, 1370 510 Z" fill="#7cc15d" opacity=".34"/>
+  </g>
+  <g opacity=".25" filter="url(#soft)">
+    <circle cx="780" cy="210" r="120" fill="#f2de94"/>
+    <circle cx="810" cy="245" r="200" fill="#7ec45d"/>
+    <circle cx="760" cy="780" r="150" fill="#d0a84a"/>
+  </g>
+</svg>
